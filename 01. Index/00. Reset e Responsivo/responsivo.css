@@ -1,0 +1,66 @@
+@media screen and (max-width: 1366px) and (min-width: 769px) {
+    .conteudo {
+        display: flex;
+        width: 20%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 1365px) and (min-width: 768px) {
+    .conteudo-imagem {
+        display: none;
+    }
+
+    .conteudo {
+        display: flex;
+        display: grid;
+        grid-template-areas:
+            " . . ."
+            " img img img "
+            " form form form "
+        ;
+
+        width: 50vh;
+    }
+
+    main {
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 411px) {
+    .conteudo-imagem {
+        display: none;
+    }
+
+    .conteudo {
+        display: flex;
+        display: grid;
+        grid-template-areas:
+            "form"
+            "img"
+        ;
+        margin-top: -3rem;
+        margin-left: 8rem;
+    }
+
+    main {
+        border: none;
+        width: 20%;
+        height: 20%;
+        margin: 0;
+    }
+
+    .botoes {
+        width: 20vh;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: -5rem;
+    }
+}

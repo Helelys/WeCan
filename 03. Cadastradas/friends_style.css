@@ -1,0 +1,128 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    
+}
+aside h1 {
+    /* Fonts */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8rem;
+    color: rgb(17, 17, 17);
+    line-height: 10rem;
+    font-weight: 500;
+
+}
+
+aside h1 span {
+    color: rgb(41, 201, 94);
+    font-weight: 800;
+}
+
+main {
+    width: 610px;
+    height: 520px;
+    border: 1px solid rgb(16, 124, 52, 0.5);    
+    padding: 5rem 5rem;
+    border-radius: 2rem;
+}
+
+main h2 {
+    max-width: 450px;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+main h2 span {
+    color: rgb(32, 128, 64);
+}
+
+main .botoes a{
+    height: 5rem;
+    background-color: rgb(19, 100, 205);
+    color: whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 3rem;
+}
+
+main .botoes a + a {
+    background-color: rgb(205, 19, 193);
+}
+
+main .botoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+main footer p {
+    font-size: 2rem;
+}
+
+main footer a {
+    font-size: 2.2rem;
+    display: block;
+}
+
+.conteudo-imagem {
+    height: 70vh;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-areas: 
+    ". . . . ."
+    ". img . form ."
+    ". img . form ."
+    ". . . . ."
+    ;
+}
+
+.prender {
+    display: grid;
+}
+
+.carrossel {
+    height: 20rem;
+    width: 100%;
+
+    /* Display flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+.container img {
+    height: 10rem;
+    width: 10rem;
+    transition: 0.5s;
+    border-radius: 2rem;
+}
+
+.container img:hover {
+    transition: 0.5s;
+    height: 12rem;
+    width: 12rem;
+}
+
+
+main {
+    grid-area: form;
+    margin: 4rem 4rem 4rem 4rem;
+}
+
+aside {
+    grid-area: img;
+    margin: 4rem 10rem 4rem 4rem;
+}
