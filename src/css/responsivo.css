@@ -26,9 +26,10 @@
     main {
         width: 50vh;
     }
+    
 }
 
-@media screen and (max-width: 767px) and (min-width: 411px) {
+@media screen and (max-width: 767px) {
     .conteudo-imagem {
         display: none;
     }
@@ -62,5 +63,17 @@
         width: fit-content;
         height: fit-content;
         margin-bottom: -5rem;
+    }
+
+    .link2 {
+        display: block;
+    }
+
+    .container img{
+        display: none;
+    }
+    
+    .titulo {
+        display: none;
     }
 }

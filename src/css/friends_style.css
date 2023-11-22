@@ -116,6 +116,10 @@ main footer a {
     width: 12rem;
 }
 
+.link2 {
+    display: none;
+}
+
 
 main {
     grid-area: form;
